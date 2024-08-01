@@ -10,3 +10,12 @@ function CE2()
     console.log(myArray);
     alert("Check the console output!");
 }
+function App(){
+    return(
+        <div className="App">
+            <h1>"Let we see the output of JAVASCRIPT"</h1>
+            <button onClick={CE2}>CE2</button>
+        </div>
+    )
+}
+export default App;
